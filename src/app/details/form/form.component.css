@@ -1,0 +1,27 @@
+h1{
+  background-color:yellowgreen; 
+  text-align:center;
+}
+.btn{
+  border: 0.5px solid;
+  transform: scaleX(1.5) scaleY(1.5);
+  margin: 20px;
+  background-color: wheat;
+}
+.btn:hover {
+  background-color:yellowgreen;
+  border: 2px solid;
+  border-radius: 10%;
+}
+.example-full-width {
+  border: 1px solid;
+  background-color: wheat;
+}
+.example-full-width:hover {
+  background-color: yellowgreen;
+}
+
+.submitbtn{
+  display: flex;
+  justify-content: center;
+}

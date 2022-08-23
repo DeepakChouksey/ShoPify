@@ -1,0 +1,113 @@
+.card-main {
+  /* border: 1px solid rgb(0, 0, 0); */
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content:center;
+  margin-top: 10px;
+  background-color:#6db784;
+}
+
+.cards {
+  /* border: 1px solid rgb(0, 0, 0); */
+  position: relative;
+  background-color: #ffffff;
+  width: 300px;
+  /* margin: auto; */
+  margin: 30px;
+  border-radius: 8px;
+  text-align: center;
+  max-height: fit-content;
+}
+
+.title {
+  display: block;
+  text-align: center;
+  color:#fefbe9;
+  background-color: #6db784;
+  /* padding: 2%; */
+  border-top-right-radius: 4px;
+  border-top-left-radius: 4px;
+}
+
+.cards img {
+  /* width: 100%; */
+  /* height: fit-content; */
+  object-fit: cover;
+  display: block;
+  position: relative;
+  cursor: pointer;;
+  max-width: 300px;
+  height: 175px;
+  margin: auto;
+
+}
+
+.details {
+  color: #183a1d;
+  background-color: #6db784;
+  display: block;
+  font-size: 1.2rem;
+  position: relative;
+  opacity: 1;
+  padding: 20px;
+}
+
+.button-like{
+  position: relative;
+  background-color: #6db784;
+  margin: 6px 6px;
+  color: #fefbe9;
+  border: none;
+  border-radius: 4px;
+}
+.button-share{
+  position: relative;
+  float: right;
+  background-color: #6db784;
+  margin: 6px 6px;
+  color: #fefbe9;
+  border: none;
+  border-radius: 4px;
+}
+
+/* #Styling Buttons Hovering Features */
+
+.button-like:hover{
+  color: white;
+  background-color: black;
+  transition: all 0.2s;
+  transform: scale(1.1);
+  font-weight: bold;
+}
+
+.button-share:hover{
+  color: white;
+  background-color: black;
+  transition: all 0.2s;
+  transform: scale(1.1);
+  font-weight: bold;
+}
+
+.button-detail{
+  background-color: #6db784;
+  margin-top: 9px;
+  margin-bottom: 9px;
+  color: #fefbe9;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 6px;
+  font-weight: bold;
+  font-size: larger;
+
+}
+
+
+
+.button-detail:hover{
+  color: white;
+  background-color: black;
+  transition: all 0.2s;
+  transform: scale(1.1);
+  font-weight: bold;
+}

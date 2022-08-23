@@ -1,0 +1,122 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+html{
+	scroll-behavior: smooth;
+}
+
+
+/* CSS Variables */
+:root{
+	--navbar-height: 599px;
+}
+
+/* Navigation Bar */
+#navbar{
+	display: flex;
+	align-items: center;
+	position: sticky;
+	top: 0px;
+	box-sizing: border-box;
+	width: 85%;
+  height: 15%;
+  margin: auto;
+  justify-content:space-between;
+	margin:5px auto;
+	/* margin-bottom: 0; */
+}
+
+#navbar::before{
+	content: "";
+	background-color: rgb(0, 0, 0);
+	position: absolute;
+	top:0px;
+	left:0px;
+	height: 100%;
+	width:100%;
+	z-index: -1;
+	/* opacity: 1; */
+}
+
+/* Navigation Bar: Logo and Image */
+#logo{
+	margin: 0px 0px;
+}
+
+#logo img{
+	height: 59px;
+	margin: 3px 6px;
+}
+
+h1 {
+	display: flex;
+	color: white;
+	font: normal 34tpx Cookie, Arial, Helvetica, sans-serif;
+	line-height: 40px;
+	margin: 0;
+}
+/* Navigation Bar: List Styling */
+
+#navbar ul{
+	display: flex;
+	font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+#navbar ul li{ 
+	list-style: none;
+	font-size: 1.3rem;
+}
+
+#navbar ul li a{
+	
+	color: rgb(255, 255, 255);
+	display: inline-block;
+	text-align: right;
+	padding: 0px 20px;
+	border-radius: 20px;
+	text-decoration: none;
+}
+
+#navbar ul li a:hover{
+	color: black;
+	background-color: white;
+	transition: all 0.2s;
+  transform: scale(1);
+	border-radius: 5px;
+}
+
+/* ________________________________ */
+@media all and (max-width: 600px) {
+
+	.headermain {
+		padding: 20px 0;
+		height: 75px;
+	}
+	.headermain .headersub{
+		text-align: center;
+	}
+
+	.headermain .headersub h1 {
+		float: none;
+		margin: -8px 0 10px;
+		text-align: center;
+		font-size: 24px;
+		line-height: 1;
+	}
+
+	.headermain .headersub nav {
+		line-height: 1;
+		float:none;
+	}
+
+	.headermain .headersub nav a {
+		font-size: 13px;
+	}
+
+	body.headermain .headermain {
+		display: none;
+	}
+}
+
